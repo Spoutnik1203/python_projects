@@ -1,2 +1,16 @@
 print("")
 print("second commit")
+#import random
+#fact = ["je joue du violloncelle depuis 8 ans","j'adore la physique","je suis gaucher"]
+#print(random.choice(fact))
+word = {"ЛОЛ":"очень смешно",
+"КРИНЖ": "что-то странное, стыдное",
+"РОФЛ":"шутка",
+"ЩИЩ":"одобрение или восторг",
+"КРИПОВЫЙ":"страшный, пугающий",
+"АГРИТЬСЯ":"злиться"}
+question = input("quel mot voulez vous savoir?")
+if question in word.keys():
+    print(word[question])
+else:
+    print("desole, nous n'avons pas trouve ce mot ")
